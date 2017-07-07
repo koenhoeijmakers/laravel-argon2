@@ -1,0 +1,20 @@
+{
+    "name": "koenhoeijmakers/argon2-laravel",
+    "description": "Argon2 implementation",
+    "require": {
+        "php": "^7.2",
+        "laravel/laravel": "^5.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Koen Hoeijmakers",
+            "email": "koen@hoeijmakers.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "KoenHoeijmakers\\Argon2Laravel\\": "src/"
+        }
+    }
+}
