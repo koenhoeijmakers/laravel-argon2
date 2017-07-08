@@ -4,8 +4,7 @@ A drop-in Argon2(i) implementation for Laravel. (which will be usable from `php 
 As the [RFC](https://wiki.php.net/rfc/argon2_password_hash) states, the Argon2d variant will not be implemented into php, and therefore we can call our package Argon2 as an alias to Argon2i.
 
 ## Disclaimer
-Please be careful while exchanging the hashing service providers, if your application is already up and running it is probably a bad idea, as this replaces the standard `bcrypt` functionality from your laravel installation (as it replaces it with Argon2)
-
+Please be careful while changing the HashServiceProviders, if your application is already up and running it is probably a bad idea, as this replaces the standard `bcrypt` functionality from your Laravel installation. (given that it is replaced by Argon2)
 
 ## Installation
 
