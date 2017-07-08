@@ -16,5 +16,12 @@
         "psr-4": {
             "KoenHoeijmakers\\Argon2Laravel\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KoenHoeijmakers\\Argon2Laravel\\HashServiceProvider"
+            ]
+        }
     }
 }
