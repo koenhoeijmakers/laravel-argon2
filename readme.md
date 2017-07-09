@@ -30,9 +30,9 @@ Search inside the `config/app.php` for the `Illuminate\Hashing\HashServiceProvid
 
 If you have replaced your HashServiceProvider with the provider delivered by this package, you may now use the laravel hash functionality the same way as you used to.
 
-# FAQ
-### Can i use this package when there are bcrypt hashes in my database?
-Having bcrypt hashes in your database?, not a problem as these can still be verified.
+## FAQ
+#### Q: Can i use this package when there are bcrypt hashes in my database?
+A: That is not a problem as these can still be verified.
 
 ### Credits
 * [Argon2](https://github.com/P-H-C/phc-winner-argon2)
