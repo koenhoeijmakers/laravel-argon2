@@ -38,9 +38,9 @@ class Argon2Hasher implements HasherContract
      */
     public function make($value, array $options = [])
     {
-        $memoryCost = $options['memory_cost'] ?: $this->memoryCost;
-        $timeCost = $options['time_cost'] ?: $this->timeCost;
-        $threads = $options['threads'] ?: $this->threads;
+        $memoryCost = $options['memory_cost'] ?? $this->memoryCost;
+        $timeCost = $options['time_cost'] ?? $this->timeCost;
+        $threads = $options['threads'] ?? $this->threads;
         
         $hash = password_hash($value, PASSWORD_ARGON2I, [
             'memory_cost' => $memoryCost,
@@ -81,9 +81,9 @@ class Argon2Hasher implements HasherContract
      */
     public function needsRehash($hashedValue, array $options = [])
     {
-        $memoryCost = $options['memory_cost'] ?: $this->memoryCost;
-        $timeCost = $options['time_cost'] ?: $this->timeCost;
-        $threads = $options['threads'] ?: $this->threads;
+        $memoryCost = $options['memory_cost'] ?? $this->memoryCost;
+        $timeCost = $options['time_cost'] ?? $this->timeCost;
+        $threads = $options['threads'] ?? $this->threads;
         
         return password_needs_rehash($hashedValue, PASSWORD_ARGON2I, [
             'memory_cost' => $memoryCost,
