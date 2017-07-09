@@ -1,10 +1,14 @@
 # Argon2 Laravel
-A drop-in Argon2(i) implementation for Laravel. (which will be usable from `php 7.2`)
+A drop-in Argon2 implementation for Laravel. (which will be usable from `PHP 7.2`)
 
 As the [RFC](https://wiki.php.net/rfc/argon2_password_hash) states, the Argon2d variant will not be implemented into php, and therefore we can call our package Argon2 as an alias to Argon2i.
 
 ## Disclaimer
-Please be careful while changing the HashServiceProviders, if your application is already up and running it is probably a bad idea, as this replaces the standard `bcrypt` functionality from your Laravel installation. (given that it is replaced by Argon2)
+Please be careful while changing the HashServiceProviders, if your application is already up and running and in some way relies on bcrypt, then it is probably a bad idea, as this replaces the standard bcrypt functionality from your Laravel installation. (given that it is replaced by Argon2)
+
+# FAQ
+### Can i use this package when there are bcrypt hashes in my database?
+Having bcrypt hashes in your database?, not a problem as these can still be verified.
 
 ## Installation
 
