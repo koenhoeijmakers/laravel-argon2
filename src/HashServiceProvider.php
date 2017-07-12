@@ -1,9 +1,9 @@
 <?php
 
-namespace Illuminate\Hashing;
+namespace KoenHoeijmakers\Argon2Laravel;
 
 use Illuminate\Support\ServiceProvider;
-use KoenHoeijmakers\Argon2Laravel\Argon2Hasher;
+use Argon2Hasher;
 
 class HashServiceProvider extends ServiceProvider
 {
