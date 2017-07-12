@@ -3,7 +3,6 @@
 namespace KoenHoeijmakers\Argon2Laravel;
 
 use Illuminate\Support\ServiceProvider;
-use Argon2Hasher;
 
 class HashServiceProvider extends ServiceProvider
 {
