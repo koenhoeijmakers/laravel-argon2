@@ -11,7 +11,7 @@ Please be careful while changing the HashServiceProviders, if your application i
 
 Require the package.
 ```php
-composer require koenhoeijmakers/argon2-laravel "0.*"
+composer require koenhoeijmakers/argon2-laravel
 ```
 
 Search inside the `config/app.php` for the `Illuminate\Hashing\HashServiceProvider::class` and replace it with the `KoenHoeijmakers\Argon2Laravel\HashServiceProvider::class`.
