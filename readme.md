@@ -1,5 +1,6 @@
 # Argon2 Laravel
-A drop-in Argon2 implementation for Laravel. (which will be usable from `PHP 7.2`)
+A drop-in Argon2 implementation for Laravel. 
+(which will be usable from `PHP 7.2` if compiled with the `--with-password-argon2` option)
 
 As the [RFC](https://wiki.php.net/rfc/argon2_password_hash) states, the Argon2d variant will not be implemented into php, and therefore we can call our package Argon2 as an alias to Argon2i.
 
