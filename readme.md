@@ -1,4 +1,8 @@
 # Argon2 Laravel
+[![Packagist](https://img.shields.io/packagist/v/koenhoeijmakers/argon2-laravel.svg?colorB=brightgreen)](https://packagist.org/packages/koenhoeijmakers/argon2-laravel)
+[![license](https://img.shields.io/github/license/koenhoeijmakers/argon2-laravel.svg?colorB=brightgreen)](https://github.com/koenhoeijmakers/Argon2-Laravel)
+[![Packagist](https://img.shields.io/packagist/dt/koenhoeijmakers/argon2-laravel.svg?colorB=brightgreen)](https://packagist.org/packages/koenhoeijmakers/argon2-laravel)
+
 A drop-in Argon2 implementation for Laravel. 
 (which will be usable from `PHP 7.2` if compiled with the `--with-password-argon2` option)
 
