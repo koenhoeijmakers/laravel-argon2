@@ -1,7 +1,7 @@
 # Argon2 Laravel
-[![Packagist](https://img.shields.io/packagist/v/koenhoeijmakers/argon2-laravel.svg?colorB=brightgreen)](https://packagist.org/packages/koenhoeijmakers/argon2-laravel)
-[![license](https://img.shields.io/github/license/koenhoeijmakers/argon2-laravel.svg?colorB=brightgreen)](https://github.com/koenhoeijmakers/Argon2-Laravel)
-[![Packagist](https://img.shields.io/packagist/dt/koenhoeijmakers/argon2-laravel.svg?colorB=brightgreen)](https://packagist.org/packages/koenhoeijmakers/argon2-laravel)
+[![Packagist](https://img.shields.io/packagist/v/koenhoeijmakers/laravel-argon2.svg?colorB=brightgreen)](https://packagist.org/packages/koenhoeijmakers/argon2-laravel)
+[![license](https://img.shields.io/github/license/koenhoeijmakers/laravel-argon2.svg?colorB=brightgreen)](https://github.com/koenhoeijmakers/Argon2-Laravel)
+[![Packagist](https://img.shields.io/packagist/dt/koenhoeijmakers/laravel-argon2.svg?colorB=brightgreen)](https://packagist.org/packages/koenhoeijmakers/argon2-laravel)
 
 A drop-in Argon2 implementation for Laravel. 
 (which will be usable from `PHP 7.2` if compiled with the `--with-password-argon2` option)
@@ -15,7 +15,7 @@ Please be careful while changing the HashServiceProviders, if your application i
 
 Require the package.
 ```php
-composer require koenhoeijmakers/argon2-laravel
+composer require koenhoeijmakers/laravel-argon2
 ```
 
 Search inside the `config/app.php` for the `Illuminate\Hashing\HashServiceProvider::class` and replace it with the `KoenHoeijmakers\Argon2Laravel\HashServiceProvider::class`.

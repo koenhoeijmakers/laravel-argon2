@@ -1,5 +1,5 @@
 {
-    "name": "koenhoeijmakers/argon2-laravel",
+    "name": "koenhoeijmakers/laravel-argon2",
     "description": "Argon2 implementation",
     "require": {
         "php": "^7.2",
@@ -14,7 +14,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "KoenHoeijmakers\\Argon2Laravel\\": "src/"
+            "KoenHoeijmakers\\LaravelArgon2\\": "src/"
         }
     }
 }

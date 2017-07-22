@@ -1,6 +1,6 @@
 <?php
 
-namespace KoenHoeijmakers\Argon2Laravel;
+namespace KoenHoeijmakers\LaravelArgon2;
 
 use Illuminate\Support\ServiceProvider;
 

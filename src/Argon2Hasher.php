@@ -1,6 +1,6 @@
 <?php
 
-namespace KoenHoeijmakers\Argon2Laravel;
+namespace KoenHoeijmakers\LaravelArgon2;
 
 use Illuminate\Contracts\Hashing\Hasher as HasherContract;
 use RuntimeException;
