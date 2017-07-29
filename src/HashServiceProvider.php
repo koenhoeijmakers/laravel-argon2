@@ -12,7 +12,7 @@ class HashServiceProvider extends ServiceProvider
      * @var bool
      */
     protected $defer = true;
-    
+
     /**
      * Register the service provider.
      *
@@ -24,7 +24,7 @@ class HashServiceProvider extends ServiceProvider
             return new Argon2Hasher();
         });
     }
-    
+
     /**
      * Get the services provided by the provider.
      *
