@@ -16,7 +16,7 @@ Please be careful while changing the HashServiceProviders, if your application i
 ## Installation
 
 Require the package.
-```php
+```sh
 composer require koenhoeijmakers/laravel-argon2
 ```
 
