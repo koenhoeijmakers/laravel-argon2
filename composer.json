@@ -3,7 +3,7 @@
     "description": "Argon2 implementation",
     "require": {
         "php": "^7.2",
-        "illuminate/hashing": "5.0.* - 5.5.*"
+        "illuminate/hashing": "5.0 - 5.5"
     },
     "license": "MIT",
     "authors": [
