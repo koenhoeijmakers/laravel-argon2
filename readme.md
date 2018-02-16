@@ -28,7 +28,7 @@ Search inside the `config/app.php` for the `Illuminate\Hashing\HashServiceProvid
     //...
     
     //Illuminate\Hashing\HashServiceProvider::class,
-    KoenHoeijmakers\Argon2Laravel\HashServiceProvider::class,
+    KoenHoeijmakers\LaravelArgon2\HashServiceProvider::class,
     
     //...
 ],
