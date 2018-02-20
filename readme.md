@@ -21,7 +21,7 @@ Require the package.
 composer require koenhoeijmakers/laravel-argon2
 ```
 
-Search inside the `config/app.php` for the `Illuminate\Hashing\HashServiceProvider::class` and replace it with the `KoenHoeijmakers\Argon2Laravel\HashServiceProvider::class`.
+Search inside the `config/app.php` for the `Illuminate\Hashing\HashServiceProvider::class` and replace it with the `KoenHoeijmakers\LaravelArgon2\HashServiceProvider::class`.
 
 ```php
 'providers' => [
