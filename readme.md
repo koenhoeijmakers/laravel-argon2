@@ -1,4 +1,4 @@
-> Pull request [#21885](https://github.com/laravel/framework/pull/21885) on the framework's repository has made this package obsolete  as Argon2 hashing will be added in Laravel's [5.6] release.
+> Pull request [#21885](https://github.com/laravel/framework/pull/21885) on the framework's repository has made this package obsolete   as Argon2 hashing will be added in Laravel's [5.6] release, therefore this package will only support from version [5.0] to [5.5].
 
 # Laravel Argon2
 [![Packagist](https://img.shields.io/packagist/v/koenhoeijmakers/laravel-argon2.svg?colorB=brightgreen)](https://packagist.org/packages/koenhoeijmakers/laravel-argon2)
@@ -6,7 +6,7 @@
 [![license](https://img.shields.io/github/license/koenhoeijmakers/laravel-argon2.svg?colorB=brightgreen)](https://github.com/koenhoeijmakers/laravel-argon2)
 [![Packagist](https://img.shields.io/packagist/dt/koenhoeijmakers/laravel-argon2.svg?colorB=brightgreen)](https://packagist.org/packages/koenhoeijmakers/laravel-argon2)
 
-A drop-in Argon2 implementation for Laravel. 
+A drop-in Argon2 implementation for Laravel.
 (which will be usable from `PHP 7.2` if compiled with the `--with-password-argon2` option)
 
 As the [RFC](https://wiki.php.net/rfc/argon2_password_hash) states, the Argon2d variant will not be implemented into php, and therefore we can call our package Argon2 as an alias to Argon2i.
