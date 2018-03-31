@@ -3,7 +3,8 @@
     "description": "Argon2 implementation",
     "require": {
         "php": "^7.2",
-        "illuminate/hashing": "5.0 - 5.5"
+        "illuminate/hashing": "5.0 - 5.5",
+        "phpunit/phpunit": "^7.0"
     },
     "license": "MIT",
     "authors": [
@@ -15,6 +16,11 @@
     "autoload": {
         "psr-4": {
             "KoenHoeijmakers\\LaravelArgon2\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "KoenHoeijmakers\\LaravelArgon2\\Tests\\": "tests/"
         }
     }
 }
