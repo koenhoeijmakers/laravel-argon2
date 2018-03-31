@@ -2,8 +2,8 @@
 
 namespace KoenHoeijmakers\LaravelArgon2\Tests\Unit;
 
-use KoenHoeijmakers\LaravelArgon2\Argon2Hasher;
 use PHPUnit\Framework\TestCase;
+use KoenHoeijmakers\LaravelArgon2\Argon2Hasher;
 
 class Argon2HasherTest extends TestCase
 {
