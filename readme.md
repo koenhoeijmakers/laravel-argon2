@@ -2,6 +2,8 @@
 
 # Laravel Argon2
 [![Packagist](https://img.shields.io/packagist/v/koenhoeijmakers/laravel-argon2.svg?colorB=brightgreen)](https://packagist.org/packages/koenhoeijmakers/laravel-argon2)
+[![Build Status](https://scrutinizer-ci.com/g/koenhoeijmakers/laravel-argon2/badges/build.png?b=master)](https://scrutinizer-ci.com/g/koenhoeijmakers/laravel-argon2/build-status/master) 
+[![Code Coverage](https://scrutinizer-ci.com/g/koenhoeijmakers/laravel-argon2/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/koenhoeijmakers/laravel-argon2/?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/koenhoeijmakers/laravel-argon2/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/koenhoeijmakers/laravel-argon2/?branch=master)
 [![license](https://img.shields.io/github/license/koenhoeijmakers/laravel-argon2.svg?colorB=brightgreen)](https://github.com/koenhoeijmakers/laravel-argon2)
 [![Packagist](https://img.shields.io/packagist/dt/koenhoeijmakers/laravel-argon2.svg?colorB=brightgreen)](https://packagist.org/packages/koenhoeijmakers/laravel-argon2)
